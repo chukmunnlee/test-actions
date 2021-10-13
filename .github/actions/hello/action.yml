@@ -1,0 +1,17 @@
+name: Hello World
+author: chuk
+description: My first action
+inputs:
+   who-to-greet:
+      description: Person's name
+      required: true
+      default: fred
+
+outputs:
+   time:
+      description: Time the action ran
+
+runs: 
+   using: node16
+   # the main file
+   main: main.js
