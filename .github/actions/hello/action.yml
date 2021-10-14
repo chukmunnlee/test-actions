@@ -12,6 +12,6 @@ outputs:
       description: Time the action ran
 
 runs: 
-   using: node16
+   using: "node12"
    # the main file
-   main: "main.js"
+   main: "bin/index.js"
